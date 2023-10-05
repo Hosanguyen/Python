@@ -1,0 +1,10 @@
+for _ in range(int(input())):
+    s = input()
+    n = input()
+    s = s.replace(n, ' ')
+    cnt = 0
+    for i in range(len(s)):
+        if(s[i] == ' '):
+            cnt+=1
+    print(cnt)
+    
